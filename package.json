@@ -1,0 +1,29 @@
+{
+  "name": "count-to-directive",
+  "description": "A directive of countTo for VUE",
+  "version": "1.0.0",
+  "private": false,
+  "main": "dist/bundle.js",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/LucasZheng/countTo-directive.git"
+  },
+  "keywords": [
+    "count-to",
+    "countTo",
+    "vue-count-to"
+  ],
+  "author": "LucasZheng",
+  "license": "MIT",
+  "homepage": "https://github.com/LucasZheng/countTo-directive.git",
+  "bugs": {
+    "url": "https://github.com/LucasZheng/countTo-directive/issues"
+  },
+  "scripts": {
+    "build": "webpack"
+  },
+  "devDependencies": {
+    "webpack": "^4.41.2",
+    "webpack-cli": "^3.3.10"
+  }
+}
