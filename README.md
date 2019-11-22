@@ -1,24 +1,33 @@
-# count-to-directive
+# Vue-Directive-Count-To
 
-## Project setup
-```
-npm install
-```
+Vue-Directive-Count-To is a lightweight directive for VUE, you can use it in any HTML tags.
 
-### Compiles and hot-reloads for development
-```
-npm run serve
+## Installation
+
+```bash
+$ npm install vue-directive-count-to
 ```
 
-### Compiles and minifies for production
-```
-npm run build
+## Usage
+
+Import this library and registe it in your `main.js`
+
+```js
+import countTo from 'vue-directive-count-to'
+
+Vue.directive('countTo', countTo)
 ```
 
-### Lints and fixes files
-```
-npm run lint
+In your VUE component, you can use this directive as follow:
+
+```html
+<div v-countTo="countNum"></div>
 ```
 
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+`countNum` is a static number either a variable number requested from backend. The default animation time is 3000 milliseconds.
+
+If you want to change the animation time, you can set this directive like this:
+
+```html
+<div v-countTo:time.5000="countNum"></div>
+```

@@ -53,7 +53,7 @@ const countTo = (() => {
     bind (el, binding) {
       handleCount(el, binding)
     },
-    updated (el, binding) {
+    update (el, binding) {
       if (binding.value !== binding.oldValue) {
         handleCount(el, binding)
       }
