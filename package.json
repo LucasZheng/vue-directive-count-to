@@ -1,7 +1,7 @@
 {
   "name": "vue-directive-count-to",
   "description": "A custom directive of countTo for VUE.",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "main": "dist/bundle.js",
   "repository": {
     "type": "git",
